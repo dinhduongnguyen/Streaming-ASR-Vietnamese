@@ -52,7 +52,13 @@ pip install -r requirements.txt
 - To run streaming from an audio file:
 
 ```bash
-python file_streaming.py
+python infer_asr_model.py
+```
+
+- To run streaming from an audio file:
+
+```bash
+python file_streaming.py --audio_path "replace with your audio file path"
 ```
 
 - To run streaming from your microphone:
@@ -68,7 +74,7 @@ python mic_streaming.py
 - [OpenAI Whisper](https://github.com/openai/whisper)
 - [CTranslate2](https://github.com/OpenNMT/CTranslate2)
 - [Silero VAD](https://github.com/snakers4/silero-vad)
-- [LiveKit Streaming Adapter](https://github.com/livekit/agents)
+- [LiveKit Agent](https://github.com/livekit/agents)
 
 ---
 

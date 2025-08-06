@@ -13,6 +13,7 @@ def get_args():
     parser.add_argument(
         "--audio_path",
         type=str,
+        default="./data/test_audio.wav",
         help="Path to a single audio file to process",
     )
 

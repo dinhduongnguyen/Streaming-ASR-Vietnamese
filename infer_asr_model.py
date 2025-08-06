@@ -7,7 +7,7 @@ import time
 model_repo = "duonguyen/whisper-vietnamese-ct2"
 model_dir = snapshot_download(repo_id=model_repo)
 
-audio_path = "fill_in_audio_path_here"  # Replace with your audio file path
+audio_path = "./data/test_audio.wav"  # Replace with your audio file path
 audio, _ = librosa.load(audio_path, sr=16000, mono=True)
 
 processor = transformers.WhisperProcessor.from_pretrained("openai/whisper-small", chunk_length=12)
