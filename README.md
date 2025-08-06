@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### Run the ASR streaming:
 
-- To run streaming from an audio file:
+- To run inference asr model offline:
 
 ```bash
 python infer_asr_model.py
